@@ -1,0 +1,118 @@
+
+section h1 {
+    color: red;
+    background-color: rgb(red, rgb(72, 144, 72), blue);
+    text-align: center;
+    font-size: 3rem;
+}
+
+ p {
+    color: blue;
+    background-color: rgb(rgb(146, 142, 194), green, blue);
+    font-family: "Reddit Sans", sans-serif;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+ul{
+    color: black;
+    font-size: 2rem;
+    text-align: left;
+    margin: 3rem;
+}
+
+.formulario {
+    display: grid;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    grid-template-columns: 1fr;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.boton {
+    margin-top: 10px;
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1; 
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
+
+.contenido img {
+    margin-right: 20px; 
+    width: 40%;
+    margin: 2rem;
+}
+
+.contenido iframe {
+    margin-right: 20px; 
+    width: 110rem;
+    height: 25rem;
+}
+
+.footer {
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 768){
+
+    nav {
+        display: none;
+    }
+
+    .contenido img {
+        display:none;
+    }
+
+}
