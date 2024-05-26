@@ -1,0 +1,67 @@
+.formulario {
+    display: grid;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    grid-template-columns: 1fr;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.campo textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.boton {
+    margin-top: 10px;
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768) {
+
+    nav {
+        display: none;
+    }
+
+    .contenido img {
+        display: none;
+    }
+
+}
