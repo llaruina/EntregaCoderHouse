@@ -1,0 +1,24 @@
+@import "../utilities/variables.scss";
+
+@mixin propiedades-links{
+
+    color: $color-links;
+    font-size: 1rem;
+    text-align: left;
+    margin: 1rem;
+
+}
+
+@mixin propiedades-parrafo{
+    color: $color-parrafo;
+    font-family: $fuente-parrafo;
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+@mixin propiedades-h1{
+    color: $color-h1;
+    text-align: center;
+    font-size: 3rem;
+}

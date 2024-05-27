@@ -1,3 +1,5 @@
+@import "../mixin/mixin.scss";
+
 header {
     margin-top: 2rem;
     padding: 25px;
@@ -22,10 +24,7 @@ header {
 
 
                         a {
-                            color: black;
-                            font-size: 1rem;
-                            text-align: left;
-                            margin: 1rem;
+                            @include propiedades-links();
                         }
                     }
                 }
