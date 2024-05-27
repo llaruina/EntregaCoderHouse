@@ -3,53 +3,112 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-body header nav {
-  margin-top: 2rem;
-}
-body header nav div img {
-  text-align: center;
-}
-body header nav div div ul li a {
-  color: black;
-  font-size: 1rem;
-  text-align: center;
-  margin: 1rem;
-}
-body main section h1 {
-  color: red;
-  text-align: center;
-  font-size: 3rem;
-}
-body main section div p {
-  color: blue;
-  font-family: "Reddit Sans", sans-serif;
-  font-size: 2rem;
-  margin: 1rem;
-}
-body main .container {
-  flex: 1;
-}
-body main .container .contenido {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-body main .container .contenido img {
-  margin-right: 20px;
-  width: 40%;
-  margin: 2rem;
-}
-body main .container .contenido iframe {
-  margin-right: 20px;
-  width: 110rem;
-  height: 25rem;
-}
-body .footer {
+
+.footer {
   padding: 20px;
   width: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
+}
+
+header {
+  margin-top: 2rem;
+  padding: 25px;
+  justify-content: space-between;
+  text-align: center;
+}
+header nav div img {
+  text-align: center;
+}
+header nav div div ul li a {
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+  margin: 1rem;
+}
+
+main section h1 {
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+}
+main section div p {
+  color: blue;
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 2rem;
+  margin: 1rem;
+}
+main .container {
+  flex: 1;
+}
+main .container .contenido {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+main .container .contenido ul {
+  color: black;
+  font-size: 2rem;
+  text-align: left;
+}
+main .container .contenido img {
+  margin-right: 20px;
+  width: 40%;
+  margin: 2rem;
+}
+main .container .contenido iframe {
+  margin-right: 20px;
+  width: 110rem;
+  height: 25rem;
+}
+
+.formulario {
+  display: grid;
+  gap: 10px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  grid-template-columns: 1fr;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo input,
+.campo textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.campo textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.boton {
+  margin-top: 10px;
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #ff7700;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #0056b3;
 }
 
 /*# sourceMappingURL=style.css.map */
