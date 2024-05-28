@@ -111,4 +111,50 @@ main .container .contenido iframe {
   background-color: #0056b3;
 }
 
+@media screen and (max-width: 768) {
+  header {
+    padding: 12px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  header nav {
+    display: none;
+  }
+  header main section h1 {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+  }
+  header main section div p {
+    color: blue;
+    font-family: "Reddit Sans", sans-serif;
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  header main .container {
+    flex: 1;
+  }
+  header main .container .contenido {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  header main .container .contenido ul {
+    color: black;
+    font-size: 1rem;
+    text-align: left;
+  }
+  header main .container .contenido img {
+    display: none;
+    margin-right: 10px;
+    width: 20%;
+    margin: 1rem;
+  }
+  header main .container .contenido iframe {
+    margin-right: 10px;
+    width: 55rem;
+    height: 12rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
