@@ -14,12 +14,12 @@
 
             section {
                 h1 {
-                    @include propiedades-h1 (2rem);
+                    @include propiedades-h1(2rem);
                 }
 
                 div {
                     p {
-                        @include propiedades-parrafo (1rem);
+                        @include propiedades-parrafo(1rem);
                     }
                 }
 

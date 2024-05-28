@@ -4,12 +4,12 @@ main {
 
     section {
         h1 {
-            @include propiedades-h1 (3rem);
+            @include propiedades-h1(3rem);
         }
 
         div {
             p {
-                @include propiedades-parrafo (2rem);
+                @include propiedades-parrafo(2rem);
             }
         }
 
