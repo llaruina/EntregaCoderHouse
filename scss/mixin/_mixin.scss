@@ -9,16 +9,22 @@
 
 }
 
-@mixin propiedades-parrafo{
+@mixin propiedades-parrafo ($size){
     color: $color-parrafo;
     font-family: $fuente-parrafo;
-    font-size: 2rem;
+    font-size: $size;
     margin: 1rem;
 
 }
 
-@mixin propiedades-h1{
+@mixin propiedades-h1 ($size){
     color: $color-h1;
     text-align: center;
-    font-size: 3rem;
+    font-size: $size;
+}
+
+@mixin propiedades-ul ($size){
+    color: black;
+    font-size: $size;
+    text-align: left;
 }

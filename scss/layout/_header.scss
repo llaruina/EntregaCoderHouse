@@ -24,7 +24,7 @@ header {
 
 
                         a {
-                            @include propiedades-links();
+                            @include propiedades-links;
                         }
                     }
                 }
