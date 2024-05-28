@@ -111,4 +111,13 @@ main .container .contenido iframe {
   background-color: #0056b3;
 }
 
+@media screen and (max-width: 768) {
+  nav {
+    display: none;
+  }
+  .contenido img {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
