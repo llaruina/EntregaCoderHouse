@@ -155,6 +155,18 @@ main .container .contenido iframe {
     width: 55rem;
     height: 12rem;
   }
+  .order-md-1 {
+    order: 2 !important;
+  }
+  .order-md-2 {
+    order: 1 !important;
+  }
+  .order-md-3 {
+    order: 2 !important;
+  }
+  .order-md-4 {
+    order: 1 !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

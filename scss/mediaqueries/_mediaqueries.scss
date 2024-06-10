@@ -28,7 +28,6 @@
             .container {
                 flex: 1;
 
-
                 .contenido {
                     display: flex;
                     align-items: center;
@@ -54,5 +53,21 @@
             }
         }
 
+    }
+
+    .order-md-1 {
+        order: 2 !important;
+    }
+
+    .order-md-2 {
+        order: 1 !important;
+    }
+
+    .order-md-3 {
+        order: 2 !important;
+    }
+
+    .order-md-4 {
+        order: 1 !important;
     }
 }
