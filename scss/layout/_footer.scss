@@ -6,6 +6,8 @@ footer {
     width: 100%;
     position: relative;
     bottom: 0;
+    transition: 3s;
+   
 
     .logo {
        text-align: left;
@@ -13,5 +15,10 @@ footer {
 
     .wp{
         text-align: right;
+        transition: transform 3s;
+    }
+
+    .wp:hover {
+        transform: rotate(360deg);
     }
 }
