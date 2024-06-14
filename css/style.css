@@ -4,12 +4,20 @@ body {
   min-height: 100vh;
 }
 
-.footer {
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
   width: 100%;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  left: 0;
+}
+footer .logo {
+  text-align: left;
+}
+footer .wp {
+  text-align: right;
 }
 
 header {
